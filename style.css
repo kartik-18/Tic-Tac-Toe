@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: larger;
+    /* background: black; */
+}
+
+.item {
+    background-color: rgb(14 36 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18vh;
+    height: 18vh;
+    border: 1px solid rgb(13, 13, 12);
+    border-radius: 4px;
+    color: white;
+
+}
+
+.colorBox {
+    background: none;
+    font-size: 12px;
+    margin-right: 50px;
+    color: wheat;
+}
+
+.colorBox button {
+    width: 10vw;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+    font-size: 19px;
+    background:none;
+    border: 0.7px solid black;
+    color: blue;
+    background-color: white;
+}
+
+body {
+    background: orange;
+}
+
+.box {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* background: black; */
+}
+
+.container {
+
+    border: 1px solid rgb(241, 10, 218);
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    border-radius: 6px;
+
+}
+
+.container button:hover {
+    background-color: rgb(68, 90, 179);
+    border-radius: 8px;
+    cursor: pointer;
+}
